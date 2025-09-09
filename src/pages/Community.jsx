@@ -48,7 +48,6 @@ const Community = () => {
   if(user)
     fetchCreations();
  },[]);
-  console.log(creations);
   return (
     !loading?(<div className='flex-1 h-full flex flex-col gap-4 p-6'>
       <h2 className='text-sm font-semibold'>Creations</h2>

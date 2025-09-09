@@ -25,7 +25,6 @@ const DashBoard = () => {
     }
     setLoading(false);
   };
-  console.log(creations);
   useEffect(() => {
     getDashboardData();
   }, []);
